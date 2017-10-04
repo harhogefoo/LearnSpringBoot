@@ -37,5 +37,7 @@
   <properties>
     <!-- Javaバージョン指定 -->
     <java.version>1.8</java.version>
+    <!-- エンコード指定 -->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 </project>
