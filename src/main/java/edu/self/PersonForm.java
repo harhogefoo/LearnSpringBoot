@@ -1,4 +1,4 @@
-package hello;
+package edu.self;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
