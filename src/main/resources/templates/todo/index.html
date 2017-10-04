@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns             ="http://www.w3.org/1999/xhtml"
+      xmlns:th          ="http://www.thymeleaf.org"
+      xmlns:layout      ="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator  ="layout">
+<head>
+  <title>TODO</title>
+</head>
+<body>
+<div layout:fragment="content">
+  <h1>TODO</h1>
+  <tr th:each="todo : ${todos}">
+    <td th:text="${todo.content}"></td>
+    <td th:text="${todo.status}"></td>
+  </tr>
+</div>
+</body>
+</html>

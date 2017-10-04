@@ -1,0 +1,10 @@
+# when local and development
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/spring_boot_todo?useSSL=false
+    username: root
+    password: password
+    driverClassName: com.mysql.jdbc.Driver
+    locations: db/migration/development
