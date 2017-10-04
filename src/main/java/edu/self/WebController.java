@@ -35,5 +35,4 @@ public class WebController extends WebMvcConfigurerAdapter {
     return "redirect:/results";
   }
 
-
 }
