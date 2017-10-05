@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Created on 2017/10/04.
  */
 @Controller
-@EnableAutoConfiguration
 @RequestMapping("/todo")
 public class TODOController {
 

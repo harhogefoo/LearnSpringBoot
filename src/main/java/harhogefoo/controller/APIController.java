@@ -1,6 +1,5 @@
 package harhogefoo.controller;
 
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,7 +11,6 @@ import java.util.Map;
  * Created on 2017/10/04.
  */
 @RestController
-@EnableAutoConfiguration
 public class APIController {
 
   @RequestMapping("/hello_world")
